@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.testing.samplecases.TestClass1
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.75 sec <<< FAILURE!
+method1(com.testing.samplecases.TestClass1)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.ArithmeticException: / by zero
+	at com.testing.samplecases.TestClass1.method1(TestClass1.java:12)
+
+method2(com.testing.samplecases.TestClass1)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.ArithmeticException: / by zero
+	at com.testing.samplecases.TestClass1.method2(TestClass1.java:18)
+
+method3(com.testing.samplecases.TestClass1)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.ArithmeticException: / by zero
+	at com.testing.samplecases.TestClass1.method3(TestClass1.java:24)
+

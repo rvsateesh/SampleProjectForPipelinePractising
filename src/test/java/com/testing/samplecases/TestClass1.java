@@ -1,5 +1,8 @@
 package com.testing.samplecases;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.testng.annotations.Test;
 
 @Test
@@ -17,8 +20,13 @@ public class TestClass1 {
 	}
 	public void method2() {
 		System.out.println("Welcome to test case 2");
-		while(i>10) {
-			i += 1;
+		List<Integer> mylist = new ArrayList<Integer>();
+		try {
+			while(i>10) {
+				mylist.get(i);
+			}
+		} catch (NullPointerException e) {
+			throw new NullPointerException();
 		}
 	}
 	public void method3() {
